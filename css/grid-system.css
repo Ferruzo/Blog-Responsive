@@ -29,10 +29,18 @@
     font-style: italic;
 }
 
+.bg-purple {
+    background-color: #1C1821;
+}
+
+.strong {
+    font-weight: bold;
+}
+
 /* Grid system */
 
 .container {
-	width: 960px;
+	width: 80%;
 	padding-left: 14px;
 	padding-right: 14px;
 	margin: 0px auto;
