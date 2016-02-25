@@ -157,6 +157,11 @@ footer {
         font-size: 1rem;
     }
 
+    nav img {
+        height: 30%;
+        width: 50%;
+    }
+
     .box-article {
         padding: 10px;
         margin-top: -4px;
@@ -182,5 +187,52 @@ footer {
         font-size: 1.5rem;
         font-weight: normal;
     }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    #btn-menu {
+	display: none;
+}
+
+#btn-menu:checked ~ .menu {
+	transform: translateX(0%);
+}
+
+.bars {
+	font-size: 2rem;
+	cursor: pointer;
+    color: #fff;
+    float: right;
+    font-weight: bold;
+    margin-top: -10%;
+}
+
+.menu {
+	position: absolute;
+	top: 65%;
+	right: 0;
+	width: 100%;
+	transform: translateX(100%);
+	transition: all 0.3s;
+	text-align: left;
+}
+
+.menu ul {
+	background-color: #1C1821;
+	display: flex;
+	list-style-type: none;
+	flex-direction: column;
+	right: 0;
+}
+
+.menu a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+    font-size: 1.1rem;
+}
 
 }
